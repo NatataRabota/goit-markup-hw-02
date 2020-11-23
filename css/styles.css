@@ -4,6 +4,8 @@
   --accent-color: #2196F3;
 }
 
+/* =============================СТУДИЯ============================= */
+
 body {
     background-color: #E5E5E5;
     color: #212121;
@@ -45,6 +47,10 @@ a {
     line-height: 1,142;
     letter-spacing: 0.02em;
     color: #212121;
+}
+
+.current {
+    color: var(--accent-color)
 }
 
 .menu-list-link:hover,
@@ -199,3 +205,43 @@ footer {
     color: rgba(255, 255, 255, 0.6);
 }
 /* ------ END FOOTER ------ */
+
+/* =============================ПОРТФОЛИО============================= */
+
+.filter-link {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    height: 38px;
+    top: 174px;
+    color: #212121;
+}
+
+.filter-link:hover,
+.filter-link:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+/* ------ PROJECTS ------*/
+.project-text {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.project-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+/* ------ END PROJECTS ------*/

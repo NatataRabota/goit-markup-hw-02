@@ -208,7 +208,7 @@ footer {
 
 /* =============================ПОРТФОЛИО============================= */
 
-.filter-link {
+.filter-btn {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
@@ -220,8 +220,8 @@ footer {
     color: #212121;
 }
 
-.filter-link:hover,
-.filter-link:focus {
+.filter-btn:hover,
+.filter-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
